@@ -1,0 +1,4 @@
+<!-- <projectRoot>/android/app/src/main/res/values/colors.xml -->
+<resources>
+  <color name="my_custom_color">#123456</color>
+</resources>
