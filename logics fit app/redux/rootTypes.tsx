@@ -1,0 +1,19 @@
+export const BACK_ONLINE: string = 'BACK_ONLINE';
+export const CARDIOS: string = 'CARDIOS';
+export const DASHBOARD_NUTRITIONS: string = 'DASHBOARD_NUTRITIONS';
+export const DASHBOARD_NUTRITIONS_DETAILS: string =
+  'DASHBOARD_NUTRITIONS_DETAILS';
+export const FETCHING_STATUS: string = 'FETCHING_STATUS';
+export const FORGET_PASSWORD: string = 'FORGET_PASSWORD';
+export const LOGOUT: string = 'LOGOUT';
+export const NETWORK_STATUS: string = 'NETWORK_STATUS';
+export const NOTIFICATIONS: string = 'NOTIFICATIONS';
+export const NUTRITIONS: string = 'NUTRIONS';
+export const WORKOUTS: string = 'WORKOUTS';
+export const ON_BOARDINGS: string = 'ON_BOARDINGS';
+export const ORIENTATION_TYPE: string = 'ORIENTATION_TYPE';
+export const SUBSCRIPTION: string = 'SUBSCRIPTION';
+export const SUBSCRIPTIONS: string = 'SUBSCRIPTIONS';
+export const TOAST_POPUP: string = 'TOAST_POPUP';
+export const USER: string = 'USER';
+export const USER_INFO: string = 'USER_INFO';
