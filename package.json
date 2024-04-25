@@ -22,6 +22,7 @@
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-base64": "^0.2.1",
+    "react-native-deep-linking": "^2.2.0",
     "react-native-element-dropdown": "^2.10.0",
     "react-native-flash-message": "^0.4.2",
     "react-native-gesture-handler": "^2.12.1",
@@ -34,6 +35,7 @@
     "react-native-screens": "^3.24.0",
     "react-native-simple-bottom-sheet": "^1.0.4",
     "react-native-snackbar": "^2.6.2",
+    "react-native-sound": "^0.11.2",
     "react-native-vector-icons": "^10.0.0"
   },
   "devDependencies": {

@@ -1,0 +1,20 @@
+export const fonts = {
+    interBold: 'Inter-Bold',
+    interMedium: 'Inter-Medium',
+    interRegular: 'Inter-regular',
+    interlight: 'Inter-light',
+    robotoBold: 'Roboto-Bold',
+    robotoMedium: 'Roboto-Medium',
+    robotolight: 'Roboto-light',
+    robotoRegular: 'Roboto-Regular',
+    robotoitalic: 'Roboto-Italic',
+    poppinsRegular: 'Poppins-Regular',
+    poppinsSemiBold: 'Poppins-SemiBold',
+    poppinsMedium: 'Poppins-Medium',
+    poppinsLight: 'Poppins-Light',
+    poppinsBold: 'Poppins-Bold',
+    RobotoMonoBold:'RobotoMono-Bold',
+    LongCangRegular:"LongCang-Regular",
+    SyneRegular:'Syne-Regular',
+  };
+  

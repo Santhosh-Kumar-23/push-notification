@@ -133,7 +133,7 @@ const SignUp = ({navigation}) => {
     <ScrollView style={{  backgroundColor: dark ? colors.card : 'white', flex: 1}}>
        <StatusBar backgroundColor={dark?colors.card:"white"} barStyle={dark?"light-content":'light-content'} />
       <View style={{marginHorizontal: 30, flex: 1, marginTop: 105}}>
-        <Text style={[Styles.welcome,{color:dark?"white":"black"}]}>Create New Acccount</Text>
+        <Text style={[Styles.welcome,{color:dark?"white":"black",fontFamily:"Syne-SemiBold"}]}>Create New Acccount</Text>
         <Text style={[Styles.text,{color:dark?"white":"black"}]}>Name</Text>
         <View>
           <View style={Styles.ele}>
@@ -314,6 +314,7 @@ const Styles = StyleSheet.create({
     fontWeight: '700',
     fontSize: 30,
     color: 'black',
+    fontFamily:"Syne-SemiBold"
   },
   errorMessage: {
     color: 'red',

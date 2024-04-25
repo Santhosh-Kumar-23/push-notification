@@ -1,4 +1,4 @@
-import React,{useRef} from 'react';
+import React, {useRef} from 'react';
 import {TouchableOpacity, Text, View, useColorScheme} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {
@@ -26,9 +26,7 @@ import TaskOne from '../task/taskOne';
 import TaskTwo from '../task/taskTwo';
 
 function BottomTab({navigation}) {
-  
   const Tab = createBottomTabNavigator();
-
 
   const headerRiight = () => {
     return (
@@ -109,23 +107,22 @@ function BottomTab({navigation}) {
   );
 }
 
-
 const Navigation = () => {
   const Stack = createStackNavigator();
   const scheme = useColorScheme();
   const navRef = useRef(null);
   const routeNameRef = React.useRef();
+
   return (
     <NavigationContainer
-    ref={navRef}
-    onReady={()=>{
-      routeNameRef.current=navRef.current.getCurrentRoute().name
-    }}
+      ref={navRef}
+      onReady={() => {
+        routeNameRef.current = navRef.current.getCurrentRoute().name;
+      }}
       onStateChange={navigationState => {
         console.log(navigationState);
         const previousRouteName = routeNameRef.current;
-        console.log("previous name",previousRouteName)
-     
+        console.log('previous name', previousRouteName);
       }}
       theme={scheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack.Navigator initialRouteName="splash">

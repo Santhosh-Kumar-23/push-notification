@@ -8,6 +8,7 @@ import {
   Image,
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { fonts } from '../utils/fontss';
 
 const Splash = ({navigation}) => {
 
@@ -36,11 +37,12 @@ const Splash = ({navigation}) => {
       <Text
         style={{
           textAlign: 'center',
-          fontWeight: '700',
+          // fontWeight: '700',
           fontSize: 30,
           marginTop: 40,
+          fontFamily:'Syne-SemiBold'
         }}>
-        welcome to my app
+        welcome to my appg
       </Text>
       <Image
         source={require('../assets/car.jpg')}
